@@ -1,0 +1,634 @@
+2025-05-01 11:06:29,871 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-01 11:06:29,871 - handlers.notification - INFO - Scheduler started
+2025-05-01 11:06:29,872 - aiogram.dispatcher - INFO - Start polling
+2025-05-01 11:06:29,991 - aiogram.dispatcher - INFO - Run polling for bot @FamilyGang_bot id=7841076656 - 'FamilyGangCalendarForSuperUsers'
+2025-05-01 11:06:30,823 - aiogram.event - INFO - Update id=766144257 is handled. Duration 656 ms by bot id=7841076656
+2025-05-01 11:07:08,358 - aiogram.event - INFO - Update id=766144258 is handled. Duration 406 ms by bot id=7841076656
+2025-05-01 11:07:12,629 - aiogram.event - INFO - Update id=766144259 is handled. Duration 266 ms by bot id=7841076656
+2025-05-01 11:07:15,940 - aiogram.event - INFO - Update id=766144260 is handled. Duration 108 ms by bot id=7841076656
+2025-05-01 11:07:17,586 - aiogram.event - INFO - Update id=766144261 is handled. Duration 157 ms by bot id=7841076656
+2025-05-01 11:07:23,476 - aiogram.event - INFO - Update id=766144262 is handled. Duration 187 ms by bot id=7841076656
+2025-05-01 11:07:26,749 - handlers.notification - INFO - User 1756307850 requested notifications creation
+2025-05-01 11:07:26,749 - handlers.notification - CRITICAL - Unexpected error in create_notif: 'Database' object has no attribute 'get_user_event'
+Traceback (most recent call last):
+  File "Z:\podopotnui\handlers\notification.py", line 53, in create_notif
+    notif_date = db.get_user_event(user_id=user_id)
+                 ^^^^^^^^^^^^^^^^^
+AttributeError: 'Database' object has no attribute 'get_user_event'. Did you mean: 'get_user_events'?
+2025-05-01 11:07:27,132 - aiogram.event - INFO - Update id=766144263 is handled. Duration 389 ms by bot id=7841076656
+2025-05-01 11:07:48,348 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-01 11:07:48,348 - handlers.notification - INFO - Scheduler shut down
+2025-05-01 11:07:48,349 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-01 11:07:48,610 - aiogram.dispatcher - INFO - Polling stopped for bot @FamilyGang_bot id=7841076656 - 'FamilyGangCalendarForSuperUsers'
+2025-05-01 11:13:52,112 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-01 11:13:52,112 - handlers.notification - INFO - Scheduler started
+2025-05-01 11:13:52,112 - aiogram.dispatcher - INFO - Start polling
+2025-05-01 11:13:52,234 - aiogram.dispatcher - INFO - Run polling for bot @FamilyGang_bot id=7841076656 - 'FamilyGangCalendarForSuperUsers'
+2025-05-01 11:14:04,268 - handlers.notification - INFO - User 1756307850 requested notifications creation
+2025-05-01 11:14:04,272 - handlers.notification - WARNING - Event jgj is in the past, skipping
+2025-05-01 11:14:04,273 - handlers.notification - WARNING - Event g is in the past, skipping
+2025-05-01 11:14:04,273 - handlers.notification - WARNING - Event f is in the past, skipping
+2025-05-01 11:14:04,273 - handlers.notification - WARNING - Event f is in the past, skipping
+2025-05-01 11:14:04,273 - handlers.notification - WARNING - Event п is in the past, skipping
+2025-05-01 11:14:04,273 - handlers.notification - WARNING - Event f is in the past, skipping
+2025-05-01 11:14:04,274 - apscheduler.scheduler - INFO - Added job "send_notification" to job store "default"
+2025-05-01 11:14:04,274 - handlers.notification - INFO - Scheduled notification for event ngg at 2025-05-01 11:10:00+00:00
+2025-05-01 11:14:04,274 - apscheduler.scheduler - INFO - Added job "send_notification" to job store "default"
+2025-05-01 11:14:04,275 - handlers.notification - INFO - Scheduled notification for event g at 2025-05-01 12:00:00+00:00
+2025-05-01 11:14:04,275 - handlers.notification - INFO - Successfully created notifications for user 1756307850
+2025-05-01 11:14:04,803 - aiogram.event - INFO - Update id=766144264 is handled. Duration 547 ms by bot id=7841076656
+2025-05-01 11:14:26,814 - aiogram.event - INFO - Update id=766144265 is handled. Duration 500 ms by bot id=7841076656
+2025-05-01 11:14:31,589 - aiogram.event - INFO - Update id=766144266 is handled. Duration 109 ms by bot id=7841076656
+2025-05-01 11:14:37,432 - aiogram.event - INFO - Update id=766144267 is handled. Duration 125 ms by bot id=7841076656
+2025-05-01 11:14:42,168 - aiogram.event - INFO - Update id=766144268 is handled. Duration 157 ms by bot id=7841076656
+2025-05-01 11:14:45,031 - handlers.notification - INFO - User 1756307850 requested notifications creation
+2025-05-01 11:14:45,032 - handlers.notification - WARNING - Event jgj is in the past, skipping
+2025-05-01 11:14:45,032 - handlers.notification - WARNING - Event g is in the past, skipping
+2025-05-01 11:14:45,032 - handlers.notification - WARNING - Event f is in the past, skipping
+2025-05-01 11:14:45,033 - handlers.notification - WARNING - Event f is in the past, skipping
+2025-05-01 11:14:45,033 - handlers.notification - WARNING - Event п is in the past, skipping
+2025-05-01 11:14:45,033 - handlers.notification - WARNING - Event f is in the past, skipping
+2025-05-01 11:14:45,033 - apscheduler.scheduler - INFO - Added job "send_notification" to job store "default"
+2025-05-01 11:14:45,033 - handlers.notification - INFO - Scheduled notification for event ngg at 2025-05-01 11:10:00+00:00
+2025-05-01 11:14:45,034 - apscheduler.scheduler - INFO - Added job "send_notification" to job store "default"
+2025-05-01 11:14:45,034 - handlers.notification - INFO - Scheduled notification for event plan g at 2025-05-01 11:16:00+00:00
+2025-05-01 11:14:45,034 - apscheduler.scheduler - INFO - Added job "send_notification" to job store "default"
+2025-05-01 11:14:45,035 - handlers.notification - INFO - Scheduled notification for event g at 2025-05-01 12:00:00+00:00
+2025-05-01 11:14:45,035 - handlers.notification - INFO - Successfully created notifications for user 1756307850
+2025-05-01 11:14:45,160 - aiogram.event - INFO - Update id=766144269 is handled. Duration 125 ms by bot id=7841076656
+2025-05-01 11:22:21,047 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-01 11:22:21,048 - handlers.notification - INFO - Scheduler shut down
+2025-05-01 11:22:21,048 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-01 11:22:21,308 - aiogram.dispatcher - INFO - Polling stopped for bot @FamilyGang_bot id=7841076656 - 'FamilyGangCalendarForSuperUsers'
+2025-05-01 11:22:25,232 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-01 11:22:25,233 - handlers.notification - INFO - Scheduler started
+2025-05-01 11:22:25,233 - aiogram.dispatcher - INFO - Start polling
+2025-05-01 11:22:25,348 - aiogram.dispatcher - INFO - Run polling for bot @FamilyGang_bot id=7841076656 - 'FamilyGangCalendarForSuperUsers'
+2025-05-01 11:22:50,853 - apscheduler.scheduler - INFO - Added job "send_notification" to job store "default"
+2025-05-01 11:22:51,264 - aiogram.event - INFO - Update id=766144270 is handled. Duration 420 ms by bot id=7841076656
+2025-05-01 11:23:50,858 - apscheduler.scheduler - INFO - Removed job 78d2a2859140420fa8359ead2899eea1
+2025-05-01 11:23:50,858 - apscheduler.executors.default - INFO - Running job "send_notification (trigger: date[2025-05-01 11:23:50 MSK], next run at: 2025-05-01 11:23:50 MSK)" (scheduled at 2025-05-01 11:23:50.853457+03:00)
+2025-05-01 11:23:51,385 - handlers.notification - INFO - Notification sent to user 1756307850 about event Тестовое уведомление
+2025-05-01 11:23:51,386 - apscheduler.executors.default - INFO - Job "send_notification (trigger: date[2025-05-01 11:23:50 MSK], next run at: 2025-05-01 11:23:50 MSK)" executed successfully
+2025-05-01 11:29:59,223 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-01 11:29:59,223 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7841076656)
+2025-05-01 11:30:10,593 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7841076656)
+2025-05-01 11:31:01,062 - aiogram.event - INFO - Update id=766144271 is handled. Duration 390 ms by bot id=7841076656
+2025-05-01 11:31:02,804 - aiogram.event - INFO - Update id=766144272 is handled. Duration 265 ms by bot id=7841076656
+2025-05-01 11:31:05,262 - aiogram.event - INFO - Update id=766144273 is handled. Duration 264 ms by bot id=7841076656
+2025-05-01 11:31:06,921 - aiogram.event - INFO - Update id=766144274 is handled. Duration 375 ms by bot id=7841076656
+2025-05-01 11:31:12,936 - aiogram.event - INFO - Update id=766144275 is handled. Duration 125 ms by bot id=7841076656
+2025-05-01 11:31:15,929 - handlers.notification - INFO - User 1756307850 requested notifications creation
+2025-05-01 11:31:15,930 - handlers.notification - WARNING - Event jgj is in the past, skipping
+2025-05-01 11:31:15,931 - handlers.notification - WARNING - Event g is in the past, skipping
+2025-05-01 11:31:15,931 - handlers.notification - WARNING - Event f is in the past, skipping
+2025-05-01 11:31:15,931 - handlers.notification - WARNING - Event f is in the past, skipping
+2025-05-01 11:31:15,931 - handlers.notification - WARNING - Event п is in the past, skipping
+2025-05-01 11:31:15,932 - handlers.notification - WARNING - Event f is in the past, skipping
+2025-05-01 11:31:15,932 - handlers.notification - WARNING - Event ngg is in the past, skipping
+2025-05-01 11:31:15,932 - handlers.notification - WARNING - Event plan g is in the past, skipping
+2025-05-01 11:31:15,932 - apscheduler.scheduler - INFO - Added job "send_notification" to job store "default"
+2025-05-01 11:31:15,933 - handlers.notification - INFO - Scheduled notification for event ngg at 2025-05-01 11:33:00+03:00
+2025-05-01 11:31:15,933 - apscheduler.scheduler - INFO - Added job "send_notification" to job store "default"
+2025-05-01 11:31:15,933 - handlers.notification - INFO - Scheduled notification for event g at 2025-05-01 12:00:00+03:00
+2025-05-01 11:31:15,933 - handlers.notification - INFO - Successfully created notifications for user 1756307850
+2025-05-01 11:31:16,053 - aiogram.event - INFO - Update id=766144276 is handled. Duration 140 ms by bot id=7841076656
+2025-05-01 11:33:00,000 - apscheduler.scheduler - INFO - Removed job 47225bab922549d58fd11e603549c033
+2025-05-01 11:33:00,001 - apscheduler.executors.default - INFO - Running job "send_notification (trigger: date[2025-05-01 11:33:00 MSK], next run at: 2025-05-01 11:33:00 MSK)" (scheduled at 2025-05-01 11:33:00+03:00)
+2025-05-01 11:33:00,432 - handlers.notification - INFO - Notification sent to user 1756307850 about event ngg
+2025-05-01 11:33:00,433 - apscheduler.executors.default - INFO - Job "send_notification (trigger: date[2025-05-01 11:33:00 MSK], next run at: 2025-05-01 11:33:00 MSK)" executed successfully
+2025-05-01 11:36:25,509 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-01 11:36:25,510 - handlers.notification - INFO - Scheduler shut down
+2025-05-01 11:36:25,510 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-01 11:36:25,770 - aiogram.dispatcher - INFO - Polling stopped for bot @FamilyGang_bot id=7841076656 - 'FamilyGangCalendarForSuperUsers'
+2025-05-01 11:36:25,888 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002025ECB3230>
+2025-05-01 11:36:29,149 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-01 11:36:29,150 - handlers.notification - INFO - Scheduler started
+2025-05-01 11:36:29,150 - aiogram.dispatcher - INFO - Start polling
+2025-05-01 11:36:29,401 - aiogram.dispatcher - INFO - Run polling for bot @FamilyGang_bot id=7841076656 - 'FamilyGangCalendarForSuperUsers'
+2025-05-01 11:37:24,948 - aiogram.event - INFO - Update id=766144277 is handled. Duration 500 ms by bot id=7841076656
+2025-05-01 11:37:32,670 - aiogram.event - INFO - Update id=766144278 is handled. Duration 125 ms by bot id=7841076656
+2025-05-01 11:37:37,867 - aiogram.event - INFO - Update id=766144279 is handled. Duration 203 ms by bot id=7841076656
+2025-05-01 11:37:43,390 - aiogram.event - INFO - Update id=766144280 is handled. Duration 108 ms by bot id=7841076656
+2025-05-01 11:37:45,444 - handlers.notification - INFO - User 1756307850 requested notifications creation
+2025-05-01 11:37:45,446 - handlers.notification - WARNING - Event jgj is in the past, skipping
+2025-05-01 11:37:45,447 - handlers.notification - WARNING - Event g is in the past, skipping
+2025-05-01 11:37:45,447 - handlers.notification - WARNING - Event f is in the past, skipping
+2025-05-01 11:37:45,447 - handlers.notification - WARNING - Event f is in the past, skipping
+2025-05-01 11:37:45,447 - handlers.notification - WARNING - Event п is in the past, skipping
+2025-05-01 11:37:45,448 - handlers.notification - WARNING - Event f is in the past, skipping
+2025-05-01 11:37:45,448 - handlers.notification - WARNING - Event ngg is in the past, skipping
+2025-05-01 11:37:45,449 - handlers.notification - WARNING - Event plan g is in the past, skipping
+2025-05-01 11:37:45,449 - handlers.notification - WARNING - Event ngg is in the past, skipping
+2025-05-01 11:37:45,450 - apscheduler.scheduler - INFO - Added job "send_notification" to job store "default"
+2025-05-01 11:37:45,450 - handlers.notification - INFO - Scheduled notification for event pidaras at 2025-05-01 11:39:00+03:00
+2025-05-01 11:37:45,450 - apscheduler.scheduler - INFO - Added job "send_notification" to job store "default"
+2025-05-01 11:37:45,451 - handlers.notification - INFO - Scheduled notification for event g at 2025-05-01 12:00:00+03:00
+2025-05-01 11:37:45,451 - handlers.notification - INFO - Successfully created notifications for user 1756307850
+2025-05-01 11:37:45,632 - aiogram.event - INFO - Update id=766144281 is handled. Duration 186 ms by bot id=7841076656
+2025-05-01 11:39:00,015 - apscheduler.scheduler - INFO - Removed job d1114ba3804b4d1ab69ab357d371e97e
+2025-05-01 11:39:00,016 - apscheduler.executors.default - INFO - Running job "send_notification (trigger: date[2025-05-01 11:39:00 MSK], next run at: 2025-05-01 11:39:00 MSK)" (scheduled at 2025-05-01 11:39:00+03:00)
+2025-05-01 11:39:00,657 - handlers.notification - INFO - Notification sent to user 1756307850 about event pidaras
+2025-05-01 11:39:00,657 - apscheduler.executors.default - INFO - Job "send_notification (trigger: date[2025-05-01 11:39:00 MSK], next run at: 2025-05-01 11:39:00 MSK)" executed successfully
+2025-05-01 11:40:38,426 - aiogram.event - INFO - Update id=766144282 is handled. Duration 452 ms by bot id=7841076656
+2025-05-01 11:44:01,213 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-01 11:44:01,213 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7841076656)
+2025-05-01 11:44:12,762 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7841076656)
+2025-05-01 11:52:01,220 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-01 11:52:01,220 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7841076656)
+2025-05-01 11:52:12,497 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7841076656)
+2025-05-01 12:00:00,014 - apscheduler.scheduler - INFO - Removed job 7f5ba782de6d4ece8a84730a7dd3e6eb
+2025-05-01 12:00:00,015 - apscheduler.executors.default - INFO - Running job "send_notification (trigger: date[2025-05-01 12:00:00 MSK], next run at: 2025-05-01 12:00:00 MSK)" (scheduled at 2025-05-01 12:00:00+03:00)
+2025-05-01 12:00:00,506 - handlers.notification - INFO - Notification sent to user 1756307850 about event g
+2025-05-01 12:00:00,507 - apscheduler.executors.default - INFO - Job "send_notification (trigger: date[2025-05-01 12:00:00 MSK], next run at: 2025-05-01 12:00:00 MSK)" executed successfully
+2025-05-01 12:00:11,227 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-01 12:00:11,227 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7841076656)
+2025-05-01 12:00:22,532 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7841076656)
+2025-05-06 16:22:02,622 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-06 16:22:02,623 - handlers.notification - INFO - Scheduler started
+2025-05-06 16:22:02,624 - aiogram.dispatcher - INFO - Start polling
+2025-05-06 16:22:02,683 - aiogram.dispatcher - INFO - Run polling for bot @FamilyGang_bot id=7841076656 - 'FamilyGangCalendarForSuperUsers'
+2025-05-06 16:23:35,825 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-06 16:23:35,826 - handlers.notification - INFO - Scheduler shut down
+2025-05-06 16:23:35,826 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-06 16:23:36,076 - aiogram.dispatcher - INFO - Polling stopped for bot @FamilyGang_bot id=7841076656 - 'FamilyGangCalendarForSuperUsers'
+2025-05-06 16:23:38,956 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-06 16:23:38,957 - handlers.notification - INFO - Scheduler started
+2025-05-06 16:23:38,957 - aiogram.dispatcher - INFO - Start polling
+2025-05-06 16:23:39,008 - aiogram.dispatcher - INFO - Run polling for bot @famcalendary_bot id=8155394607 - 'Family_Calendar'
+2025-05-06 16:24:30,216 - aiogram.event - INFO - Update id=21579095 is handled. Duration 219 ms by bot id=8155394607
+2025-05-06 16:24:35,539 - aiogram.event - INFO - Update id=21579096 is handled. Duration 78 ms by bot id=8155394607
+2025-05-06 16:24:44,779 - aiogram.event - INFO - Update id=21579097 is handled. Duration 78 ms by bot id=8155394607
+2025-05-06 16:25:02,500 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-06 16:25:02,500 - handlers.notification - INFO - Scheduler shut down
+2025-05-06 16:25:02,500 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-06 16:25:02,765 - aiogram.dispatcher - INFO - Polling stopped for bot @famcalendary_bot id=8155394607 - 'Family_Calendar'
+2025-05-06 16:33:40,712 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-06 16:33:40,713 - handlers.notification - INFO - Scheduler started
+2025-05-06 16:33:40,713 - aiogram.dispatcher - INFO - Start polling
+2025-05-06 16:33:40,776 - aiogram.dispatcher - INFO - Run polling for bot @famcalendary_bot id=8155394607 - 'Family_Calendar'
+2025-05-06 16:33:45,672 - aiogram.event - INFO - Update id=21579098 is handled. Duration 296 ms by bot id=8155394607
+2025-05-06 16:33:50,740 - aiogram.event - INFO - Update id=21579099 is handled. Duration 171 ms by bot id=8155394607
+2025-05-06 16:33:59,912 - aiogram.event - INFO - Update id=21579100 is handled. Duration 203 ms by bot id=8155394607
+2025-05-06 16:35:44,291 - aiogram.event - INFO - Update id=21579101 is handled. Duration 296 ms by bot id=8155394607
+2025-05-06 16:35:49,734 - aiogram.event - INFO - Update id=21579102 is handled. Duration 139 ms by bot id=8155394607
+2025-05-06 16:36:00,683 - aiogram.event - INFO - Update id=21579103 is handled. Duration 93 ms by bot id=8155394607
+2025-05-06 16:36:06,630 - aiogram.event - INFO - Update id=21579104 is handled. Duration 250 ms by bot id=8155394607
+2025-05-06 16:36:14,069 - aiogram.event - INFO - Update id=21579105 is handled. Duration 93 ms by bot id=8155394607
+2025-05-06 16:36:23,021 - aiogram.event - INFO - Update id=21579106 is handled. Duration 156 ms by bot id=8155394607
+2025-05-06 16:36:36,336 - aiogram.event - INFO - Update id=21579107 is handled. Duration 93 ms by bot id=8155394607
+2025-05-06 16:36:40,911 - handlers.notification - INFO - User 1756307850 requested notifications creation
+2025-05-06 16:36:40,916 - handlers.notification - WARNING - Event jgj is in the past, skipping
+2025-05-06 16:36:40,917 - handlers.notification - WARNING - Event g is in the past, skipping
+2025-05-06 16:36:40,917 - handlers.notification - WARNING - Event f is in the past, skipping
+2025-05-06 16:36:40,918 - handlers.notification - WARNING - Event f is in the past, skipping
+2025-05-06 16:36:40,918 - handlers.notification - WARNING - Event п is in the past, skipping
+2025-05-06 16:36:40,918 - handlers.notification - WARNING - Event f is in the past, skipping
+2025-05-06 16:36:40,918 - handlers.notification - WARNING - Event ngg is in the past, skipping
+2025-05-06 16:36:40,918 - handlers.notification - WARNING - Event plan g is in the past, skipping
+2025-05-06 16:36:40,918 - handlers.notification - WARNING - Event ngg is in the past, skipping
+2025-05-06 16:36:40,919 - handlers.notification - WARNING - Event pidaras is in the past, skipping
+2025-05-06 16:36:40,919 - handlers.notification - WARNING - Event g is in the past, skipping
+2025-05-06 16:36:40,919 - apscheduler.scheduler - INFO - Added job "send_notification" to job store "default"
+2025-05-06 16:36:40,919 - handlers.notification - INFO - Scheduled notification for event present at 2025-05-06 17:00:00+03:00
+2025-05-06 16:36:40,920 - handlers.notification - INFO - Successfully created notifications for user 1756307850
+2025-05-06 16:36:41,025 - aiogram.event - INFO - Update id=21579108 is handled. Duration 110 ms by bot id=8155394607
+2025-05-06 16:36:54,150 - aiogram.event - INFO - Update id=21579109 is not handled. Duration 14 ms by bot id=8155394607
+2025-05-06 16:37:42,131 - aiogram.event - INFO - Update id=21579110 is handled. Duration 265 ms by bot id=8155394607
+2025-05-06 16:37:47,485 - aiogram.event - INFO - Update id=21579111 is handled. Duration 109 ms by bot id=8155394607
+2025-05-06 16:37:55,046 - aiogram.event - INFO - Update id=21579112 is handled. Duration 93 ms by bot id=8155394607
+2025-05-06 16:37:58,965 - aiogram.event - INFO - Update id=21579113 is handled. Duration 391 ms by bot id=8155394607
+2025-05-06 16:38:08,148 - aiogram.event - INFO - Update id=21579114 is handled. Duration 94 ms by bot id=8155394607
+2025-05-06 16:38:15,257 - aiogram.event - INFO - Update id=21579115 is handled. Duration 93 ms by bot id=8155394607
+2025-05-06 16:38:22,723 - aiogram.event - INFO - Update id=21579116 is handled. Duration 313 ms by bot id=8155394607
+2025-05-06 16:38:24,863 - handlers.notification - INFO - User 1756307850 requested notifications creation
+2025-05-06 16:38:24,863 - handlers.notification - WARNING - Event jgj is in the past, skipping
+2025-05-06 16:38:24,864 - handlers.notification - WARNING - Event g is in the past, skipping
+2025-05-06 16:38:24,864 - handlers.notification - WARNING - Event f is in the past, skipping
+2025-05-06 16:38:24,864 - handlers.notification - WARNING - Event f is in the past, skipping
+2025-05-06 16:38:24,864 - handlers.notification - WARNING - Event п is in the past, skipping
+2025-05-06 16:38:24,865 - handlers.notification - WARNING - Event f is in the past, skipping
+2025-05-06 16:38:24,865 - handlers.notification - WARNING - Event ngg is in the past, skipping
+2025-05-06 16:38:24,865 - handlers.notification - WARNING - Event plan g is in the past, skipping
+2025-05-06 16:38:24,865 - handlers.notification - WARNING - Event ngg is in the past, skipping
+2025-05-06 16:38:24,865 - handlers.notification - WARNING - Event pidaras is in the past, skipping
+2025-05-06 16:38:24,865 - handlers.notification - WARNING - Event g is in the past, skipping
+2025-05-06 16:38:24,866 - apscheduler.scheduler - INFO - Added job "send_notification" to job store "default"
+2025-05-06 16:38:24,866 - handlers.notification - INFO - Scheduled notification for event present at 2025-05-06 17:00:00+03:00
+2025-05-06 16:38:24,867 - apscheduler.scheduler - INFO - Added job "send_notification" to job store "default"
+2025-05-06 16:38:24,867 - handlers.notification - INFO - Scheduled notification for event День рождение at 2025-05-06 17:30:00+03:00
+2025-05-06 16:38:24,867 - handlers.notification - INFO - Successfully created notifications for user 1756307850
+2025-05-06 16:38:24,957 - aiogram.event - INFO - Update id=21579117 is handled. Duration 93 ms by bot id=8155394607
+2025-05-06 16:38:33,334 - aiogram.event - INFO - Update id=21579118 is handled. Duration 78 ms by bot id=8155394607
+2025-05-06 16:38:38,612 - aiogram.event - INFO - Update id=21579119 is handled. Duration 93 ms by bot id=8155394607
+2025-05-06 16:38:51,895 - aiogram.event - INFO - Update id=21579120 is handled. Duration 110 ms by bot id=8155394607
+2025-05-06 16:38:54,099 - aiogram.event - INFO - Update id=21579121 is handled. Duration 94 ms by bot id=8155394607
+2025-05-06 16:38:56,352 - aiogram.event - INFO - Update id=21579122 is handled. Duration 156 ms by bot id=8155394607
+2025-05-06 16:38:58,810 - aiogram.event - INFO - Update id=21579123 is handled. Duration 156 ms by bot id=8155394607
+2025-05-06 16:38:59,786 - aiogram.event - INFO - Update id=21579124 is handled. Duration 186 ms by bot id=8155394607
+2025-05-06 16:39:00,709 - aiogram.event - INFO - Update id=21579125 is handled. Duration 250 ms by bot id=8155394607
+2025-05-06 16:39:07,761 - aiogram.event - INFO - Update id=21579126 is handled. Duration 235 ms by bot id=8155394607
+2025-05-06 16:39:31,938 - aiogram.event - INFO - Update id=21579127 is handled. Duration 281 ms by bot id=8155394607
+2025-05-06 16:39:37,390 - aiogram.event - INFO - Update id=21579128 is handled. Duration 438 ms by bot id=8155394607
+2025-05-06 16:39:38,854 - aiogram.event - INFO - Update id=21579129 is handled. Duration 171 ms by bot id=8155394607
+2025-05-06 16:39:39,526 - aiogram.event - INFO - Update id=21579130 is handled. Duration 156 ms by bot id=8155394607
+2025-05-06 16:39:40,536 - aiogram.event - INFO - Update id=21579131 is handled. Duration 186 ms by bot id=8155394607
+2025-05-06 16:39:41,029 - aiogram.event - INFO - Update id=21579132 is handled. Duration 156 ms by bot id=8155394607
+2025-05-06 16:39:43,468 - aiogram.event - INFO - Update id=21579133 is handled. Duration 188 ms by bot id=8155394607
+2025-05-06 16:40:20,228 - aiogram.event - INFO - Update id=21579134 is handled. Duration 281 ms by bot id=8155394607
+2025-05-06 16:40:21,639 - aiogram.event - INFO - Update id=21579135 is handled. Duration 171 ms by bot id=8155394607
+2025-05-06 16:40:22,370 - aiogram.event - INFO - Update id=21579136 is handled. Duration 203 ms by bot id=8155394607
+2025-05-06 16:40:23,279 - aiogram.event - INFO - Update id=21579137 is handled. Duration 171 ms by bot id=8155394607
+2025-05-06 16:40:23,978 - aiogram.event - INFO - Update id=21579138 is handled. Duration 187 ms by bot id=8155394607
+2025-05-06 16:40:24,742 - aiogram.event - INFO - Update id=21579139 is handled. Duration 203 ms by bot id=8155394607
+2025-05-06 16:40:28,155 - aiogram.event - INFO - Update id=21579140 is handled. Duration 453 ms by bot id=8155394607
+2025-05-06 16:40:28,752 - aiogram.event - INFO - Update id=21579141 is handled. Duration 296 ms by bot id=8155394607
+2025-05-06 16:40:35,816 - aiogram.event - INFO - Update id=21579142 is handled. Duration 93 ms by bot id=8155394607
+2025-05-06 16:40:39,222 - aiogram.event - INFO - Update id=21579143 is handled. Duration 625 ms by bot id=8155394607
+2025-05-06 16:40:41,915 - aiogram.event - INFO - Update id=21579144 is handled. Duration 156 ms by bot id=8155394607
+2025-05-06 16:40:50,855 - aiogram.event - INFO - Update id=21579145 is handled. Duration 93 ms by bot id=8155394607
+2025-05-06 16:40:52,606 - aiogram.event - INFO - Update id=21579146 is handled. Duration 171 ms by bot id=8155394607
+2025-05-06 16:40:53,369 - aiogram.event - INFO - Update id=21579147 is handled. Duration 171 ms by bot id=8155394607
+2025-05-06 16:41:00,653 - aiogram.event - INFO - Update id=21579148 is handled. Duration 109 ms by bot id=8155394607
+2025-05-06 16:41:21,314 - aiogram.event - INFO - Update id=21579149 is handled. Duration 281 ms by bot id=8155394607
+2025-05-06 16:41:22,946 - aiogram.event - INFO - Update id=21579150 is handled. Duration 78 ms by bot id=8155394607
+2025-05-06 16:41:27,139 - aiogram.event - INFO - Update id=21579151 is handled. Duration 141 ms by bot id=8155394607
+2025-05-06 16:41:31,615 - aiogram.event - INFO - Update id=21579152 is handled. Duration 171 ms by bot id=8155394607
+2025-05-06 16:41:39,937 - aiogram.event - INFO - Update id=21579153 is handled. Duration 93 ms by bot id=8155394607
+2025-05-06 16:41:42,907 - aiogram.event - INFO - Update id=21579154 is handled. Duration 93 ms by bot id=8155394607
+2025-05-06 16:41:55,404 - aiogram.event - INFO - Update id=21579155 is handled. Duration 109 ms by bot id=8155394607
+2025-05-06 16:41:56,653 - handlers.notification - INFO - User 1756307850 requested notifications creation
+2025-05-06 16:41:56,653 - apscheduler.scheduler - INFO - Added job "send_notification" to job store "default"
+2025-05-06 16:41:56,654 - handlers.notification - INFO - Scheduled notification for event День рождения at 2025-05-06 16:43:00+03:00
+2025-05-06 16:41:56,654 - handlers.notification - INFO - Successfully created notifications for user 1756307850
+2025-05-06 16:41:56,817 - aiogram.event - INFO - Update id=21579156 is handled. Duration 156 ms by bot id=8155394607
+2025-05-06 16:42:03,515 - aiogram.event - INFO - Update id=21579157 is handled. Duration 188 ms by bot id=8155394607
+2025-05-06 16:42:06,366 - aiogram.event - INFO - Update id=21579158 is handled. Duration 78 ms by bot id=8155394607
+2025-05-06 16:42:19,808 - aiogram.event - INFO - Update id=21579159 is handled. Duration 93 ms by bot id=8155394607
+2025-05-06 16:42:23,098 - aiogram.event - INFO - Update id=21579160 is handled. Duration 188 ms by bot id=8155394607
+2025-05-06 16:42:27,468 - aiogram.event - INFO - Update id=21579161 is handled. Duration 125 ms by bot id=8155394607
+2025-05-06 16:42:29,548 - aiogram.event - INFO - Update id=21579162 is handled. Duration 93 ms by bot id=8155394607
+2025-05-06 16:42:33,094 - aiogram.event - INFO - Update id=21579163 is handled. Duration 110 ms by bot id=8155394607
+2025-05-06 16:42:36,057 - handlers.notification - INFO - User 1756307850 requested notifications creation
+2025-05-06 16:42:36,058 - apscheduler.scheduler - INFO - Added job "send_notification" to job store "default"
+2025-05-06 16:42:36,058 - handlers.notification - INFO - Scheduled notification for event День рождения at 2025-05-06 16:43:00+03:00
+2025-05-06 16:42:36,058 - apscheduler.scheduler - INFO - Added job "send_notification" to job store "default"
+2025-05-06 16:42:36,058 - handlers.notification - INFO - Scheduled notification for event tets at 2025-05-07 12:00:00+03:00
+2025-05-06 16:42:36,058 - handlers.notification - INFO - Successfully created notifications for user 1756307850
+2025-05-06 16:42:36,151 - aiogram.event - INFO - Update id=21579164 is handled. Duration 93 ms by bot id=8155394607
+2025-05-06 16:42:50,905 - aiogram.event - INFO - Update id=21579165 is handled. Duration 93 ms by bot id=8155394607
+2025-05-06 16:42:52,588 - aiogram.event - INFO - Update id=21579166 is handled. Duration 235 ms by bot id=8155394607
+2025-05-06 16:42:58,853 - aiogram.event - INFO - Update id=21579167 is handled. Duration 328 ms by bot id=8155394607
+2025-05-06 16:43:00,010 - apscheduler.scheduler - INFO - Removed job 3cd90754095e4c1e82de71f93ad04b29
+2025-05-06 16:43:00,011 - apscheduler.scheduler - INFO - Removed job e0237bf48f784de8a05117d739448aad
+2025-05-06 16:43:00,012 - apscheduler.executors.default - INFO - Running job "send_notification (trigger: date[2025-05-06 16:43:00 MSK], next run at: 2025-05-06 16:43:00 MSK)" (scheduled at 2025-05-06 16:43:00+03:00)
+2025-05-06 16:43:00,012 - apscheduler.executors.default - INFO - Running job "send_notification (trigger: date[2025-05-06 16:43:00 MSK], next run at: 2025-05-06 16:43:00 MSK)" (scheduled at 2025-05-06 16:43:00+03:00)
+2025-05-06 16:43:00,428 - handlers.notification - INFO - Notification sent to user 1756307850 about event День рождения
+2025-05-06 16:43:00,428 - apscheduler.executors.default - INFO - Job "send_notification (trigger: date[2025-05-06 16:43:00 MSK], next run at: 2025-05-06 16:43:00 MSK)" executed successfully
+2025-05-06 16:43:00,468 - handlers.notification - INFO - Notification sent to user 1756307850 about event День рождения
+2025-05-06 16:43:00,468 - apscheduler.executors.default - INFO - Job "send_notification (trigger: date[2025-05-06 16:43:00 MSK], next run at: 2025-05-06 16:43:00 MSK)" executed successfully
+2025-05-06 16:44:09,755 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-06 16:44:09,755 - handlers.notification - INFO - Scheduler shut down
+2025-05-06 16:44:09,756 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-06 16:44:10,013 - aiogram.dispatcher - INFO - Polling stopped for bot @famcalendary_bot id=8155394607 - 'Family_Calendar'
+2025-05-06 16:44:10,136 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002039132DFA0>
+2025-05-06 16:53:01,298 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-06 16:53:01,299 - handlers.notification - INFO - Scheduler started
+2025-05-06 16:53:01,299 - aiogram.dispatcher - INFO - Start polling
+2025-05-06 16:53:01,367 - aiogram.dispatcher - INFO - Run polling for bot @famcalendary_bot id=8155394607 - 'Family_Calendar'
+2025-05-06 16:53:04,714 - aiogram.event - INFO - Update id=21579168 is handled. Duration 610 ms by bot id=8155394607
+2025-05-06 16:54:02,293 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-06 16:54:02,293 - handlers.notification - INFO - Scheduler shut down
+2025-05-06 16:54:02,294 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-06 16:54:02,548 - aiogram.dispatcher - INFO - Polling stopped for bot @famcalendary_bot id=8155394607 - 'Family_Calendar'
+2025-05-06 16:54:05,884 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-06 16:54:05,884 - handlers.notification - INFO - Scheduler started
+2025-05-06 16:54:05,884 - aiogram.dispatcher - INFO - Start polling
+2025-05-06 16:54:05,947 - aiogram.dispatcher - INFO - Run polling for bot @famcalendary_bot id=8155394607 - 'Family_Calendar'
+2025-05-06 16:54:08,685 - aiogram.event - INFO - Update id=21579169 is handled. Duration 593 ms by bot id=8155394607
+2025-05-06 16:55:24,660 - aiogram.event - INFO - Update id=21579170 is handled. Duration 375 ms by bot id=8155394607
+2025-05-06 16:55:27,920 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-06 16:55:27,921 - handlers.notification - INFO - Scheduler shut down
+2025-05-06 16:55:27,921 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-06 16:55:28,188 - aiogram.dispatcher - INFO - Polling stopped for bot @famcalendary_bot id=8155394607 - 'Family_Calendar'
+2025-05-06 16:55:31,252 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-06 16:55:31,253 - handlers.notification - INFO - Scheduler started
+2025-05-06 16:55:31,253 - aiogram.dispatcher - INFO - Start polling
+2025-05-06 16:55:31,315 - aiogram.dispatcher - INFO - Run polling for bot @famcalendary_bot id=8155394607 - 'Family_Calendar'
+2025-05-06 16:55:32,474 - aiogram.event - INFO - Update id=21579172 is handled. Duration 422 ms by bot id=8155394607
+2025-05-06 16:55:56,720 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-06 16:55:56,721 - handlers.notification - INFO - Scheduler shut down
+2025-05-06 16:55:56,721 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-06 16:55:56,975 - aiogram.dispatcher - INFO - Polling stopped for bot @famcalendary_bot id=8155394607 - 'Family_Calendar'
+2025-05-06 16:56:00,191 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-06 16:56:00,191 - handlers.notification - INFO - Scheduler started
+2025-05-06 16:56:00,192 - aiogram.dispatcher - INFO - Start polling
+2025-05-06 16:56:00,256 - aiogram.dispatcher - INFO - Run polling for bot @famcalendary_bot id=8155394607 - 'Family_Calendar'
+2025-05-06 16:56:01,626 - aiogram.event - INFO - Update id=21579175 is handled. Duration 421 ms by bot id=8155394607
+2025-05-06 16:56:40,940 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-06 16:56:40,940 - handlers.notification - INFO - Scheduler shut down
+2025-05-06 16:56:40,941 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-06 16:56:41,205 - aiogram.dispatcher - INFO - Polling stopped for bot @famcalendary_bot id=8155394607 - 'Family_Calendar'
+2025-05-06 16:56:44,263 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-06 16:56:44,264 - handlers.notification - INFO - Scheduler started
+2025-05-06 16:56:44,264 - aiogram.dispatcher - INFO - Start polling
+2025-05-06 16:56:44,331 - aiogram.dispatcher - INFO - Run polling for bot @famcalendary_bot id=8155394607 - 'Family_Calendar'
+2025-05-06 16:56:46,490 - aiogram.event - INFO - Update id=21579177 is handled. Duration 389 ms by bot id=8155394607
+2025-05-06 16:57:02,366 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-06 16:57:02,366 - handlers.notification - INFO - Scheduler shut down
+2025-05-06 16:57:02,367 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-06 16:57:02,614 - aiogram.dispatcher - INFO - Polling stopped for bot @famcalendary_bot id=8155394607 - 'Family_Calendar'
+2025-05-06 16:57:05,659 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-06 16:57:05,659 - handlers.notification - INFO - Scheduler started
+2025-05-06 16:57:05,660 - aiogram.dispatcher - INFO - Start polling
+2025-05-06 16:57:05,723 - aiogram.dispatcher - INFO - Run polling for bot @famcalendary_bot id=8155394607 - 'Family_Calendar'
+2025-05-06 16:57:09,995 - aiogram.event - INFO - Update id=21579178 is handled. Duration 2546 ms by bot id=8155394607
+2025-05-06 16:57:19,591 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-06 16:57:19,591 - handlers.notification - INFO - Scheduler shut down
+2025-05-06 16:57:19,592 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-06 16:57:19,855 - aiogram.dispatcher - INFO - Polling stopped for bot @famcalendary_bot id=8155394607 - 'Family_Calendar'
+2025-05-06 16:57:22,742 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-06 16:57:22,742 - handlers.notification - INFO - Scheduler started
+2025-05-06 16:57:22,742 - aiogram.dispatcher - INFO - Start polling
+2025-05-06 16:57:22,811 - aiogram.dispatcher - INFO - Run polling for bot @famcalendary_bot id=8155394607 - 'Family_Calendar'
+2025-05-06 16:57:26,871 - aiogram.event - INFO - Update id=21579179 is handled. Duration 1078 ms by bot id=8155394607
+2025-05-06 16:58:13,742 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-06 16:58:13,743 - handlers.notification - INFO - Scheduler shut down
+2025-05-06 16:58:13,744 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-06 16:58:14,004 - aiogram.dispatcher - INFO - Polling stopped for bot @famcalendary_bot id=8155394607 - 'Family_Calendar'
+2025-05-06 17:00:53,462 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-06 17:00:53,463 - handlers.notification - INFO - Scheduler started
+2025-05-06 17:00:53,463 - aiogram.dispatcher - INFO - Start polling
+2025-05-06 17:00:53,529 - aiogram.dispatcher - INFO - Run polling for bot @famcalendary_bot id=8155394607 - 'Family_Calendar'
+2025-05-06 17:00:58,722 - aiogram.event - INFO - Update id=21579180 is handled. Duration 1110 ms by bot id=8155394607
+2025-05-06 17:01:06,626 - aiogram.event - INFO - Update id=21579181 is handled. Duration 140 ms by bot id=8155394607
+2025-05-06 17:01:09,020 - aiogram.event - INFO - Update id=21579182 is handled. Duration 235 ms by bot id=8155394607
+2025-05-06 17:01:19,118 - aiogram.event - INFO - Update id=21579183 is handled. Duration 139 ms by bot id=8155394607
+2025-05-06 17:01:20,497 - aiogram.event - INFO - Update id=21579184 is handled. Duration 108 ms by bot id=8155394607
+2025-05-06 17:01:24,788 - aiogram.event - INFO - Update id=21579185 is handled. Duration 93 ms by bot id=8155394607
+2025-05-06 17:01:27,924 - aiogram.event - INFO - Update id=21579186 is not handled. Duration 671 ms by bot id=8155394607
+2025-05-06 17:01:27,924 - aiogram.event - ERROR - Cause exception while process update id=21579186 by bot id=8155394607
+AttributeError: 'CallbackQuery' object has no attribute 'answer_sticker'
+Traceback (most recent call last):
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "Z:\podopotnui_backup\handlers\notification.py", line 142, in cancel_notif
+    await message.answer_sticker("CAACAgIAAxkBAAEO6DBoGhXGkWXCjTC_QqVQwZLnmqadjgACcwIAAladvQqoc6WsC0Ee0TYE")
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\pydantic\main.py", line 856, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'CallbackQuery' object has no attribute 'answer_sticker'
+2025-05-06 17:03:25,134 - aiogram.event - INFO - Update id=21579187 is not handled. Duration 16 ms by bot id=8155394607
+2025-05-06 17:03:25,135 - aiogram.event - ERROR - Cause exception while process update id=21579187 by bot id=8155394607
+TypeError: create_notif() missing 1 required positional argument: 'message'
+Traceback (most recent call last):
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+                 ^^^^^^^^^
+TypeError: create_notif() missing 1 required positional argument: 'message'
+2025-05-06 17:03:42,016 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-06 17:03:42,017 - handlers.notification - INFO - Scheduler shut down
+2025-05-06 17:03:42,017 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-06 17:03:42,276 - aiogram.dispatcher - INFO - Polling stopped for bot @famcalendary_bot id=8155394607 - 'Family_Calendar'
+2025-05-06 17:03:45,585 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-06 17:03:45,585 - handlers.notification - INFO - Scheduler started
+2025-05-06 17:03:45,586 - aiogram.dispatcher - INFO - Start polling
+2025-05-06 17:03:45,645 - aiogram.dispatcher - INFO - Run polling for bot @famcalendary_bot id=8155394607 - 'Family_Calendar'
+2025-05-06 17:03:46,082 - aiogram.event - INFO - Update id=21579188 is not handled. Duration 0 ms by bot id=8155394607
+2025-05-06 17:03:46,082 - aiogram.event - ERROR - Cause exception while process update id=21579188 by bot id=8155394607
+TypeError: create_notif() missing 1 required positional argument: 'message'
+Traceback (most recent call last):
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tires\Illustaror_Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+                 ^^^^^^^^^
+TypeError: create_notif() missing 1 required positional argument: 'message'
+2025-05-06 17:03:50,668 - aiogram.event - INFO - Update id=21579189 is handled. Duration 327 ms by bot id=8155394607
+2025-05-06 17:04:03,221 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-06 17:04:03,221 - handlers.notification - INFO - Scheduler shut down
+2025-05-06 17:04:03,222 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-06 17:04:03,487 - aiogram.dispatcher - INFO - Polling stopped for bot @famcalendary_bot id=8155394607 - 'Family_Calendar'
+2025-05-06 17:04:06,705 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-06 17:04:06,705 - handlers.notification - INFO - Scheduler started
+2025-05-06 17:04:06,706 - aiogram.dispatcher - INFO - Start polling
+2025-05-06 17:04:06,769 - aiogram.dispatcher - INFO - Run polling for bot @famcalendary_bot id=8155394607 - 'Family_Calendar'
+2025-05-06 17:04:14,849 - handlers.notification - INFO - User 1756307850 requested notifications creation
+2025-05-06 17:04:14,853 - handlers.notification - WARNING - Event др is in the past, skipping
+2025-05-06 17:04:14,853 - handlers.notification - WARNING - Event День рождения is in the past, skipping
+2025-05-06 17:04:15,180 - aiogram.event - INFO - Update id=21579190 is handled. Duration 327 ms by bot id=8155394607
+2025-05-06 17:04:55,131 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-06 17:04:55,131 - handlers.notification - INFO - Scheduler shut down
+2025-05-06 17:04:55,132 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-06 17:04:55,389 - aiogram.dispatcher - INFO - Polling stopped for bot @famcalendary_bot id=8155394607 - 'Family_Calendar'
+2025-05-06 17:05:42,392 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-06 17:05:42,393 - handlers.notification - INFO - Scheduler started
+2025-05-06 17:05:42,393 - aiogram.dispatcher - INFO - Start polling
+2025-05-06 17:05:42,460 - aiogram.dispatcher - INFO - Run polling for bot @famcalendary_bot id=8155394607 - 'Family_Calendar'
+2025-05-06 17:05:58,519 - aiogram.event - INFO - Update id=21579191 is handled. Duration 921 ms by bot id=8155394607
+2025-05-06 17:08:07,471 - aiogram.event - INFO - Update id=21579192 is handled. Duration 1313 ms by bot id=8155394607
+2025-05-06 17:09:12,578 - aiogram.event - INFO - Update id=21579193 is handled. Duration 889 ms by bot id=8155394607
+2025-05-06 17:09:21,268 - aiogram.event - INFO - Update id=21579194 is handled. Duration 750 ms by bot id=8155394607
+2025-05-06 17:09:29,965 - aiogram.event - INFO - Update id=21579195 is handled. Duration 203 ms by bot id=8155394607
+2025-05-06 17:09:34,683 - aiogram.event - INFO - Update id=21579196 is handled. Duration 171 ms by bot id=8155394607
+2025-05-06 17:09:42,495 - aiogram.event - INFO - Update id=21579197 is handled. Duration 140 ms by bot id=8155394607
+2025-05-06 17:09:43,624 - aiogram.event - INFO - Update id=21579198 is handled. Duration 155 ms by bot id=8155394607
+2025-05-06 17:09:46,210 - aiogram.event - INFO - Update id=21579199 is handled. Duration 108 ms by bot id=8155394607
+2025-05-06 17:09:48,804 - aiogram.event - INFO - Update id=21579200 is handled. Duration 77 ms by bot id=8155394607
+2025-05-06 17:09:54,045 - aiogram.event - INFO - Update id=21579201 is handled. Duration 93 ms by bot id=8155394607
+2025-05-06 17:09:55,861 - aiogram.event - INFO - Update id=21579202 is handled. Duration 156 ms by bot id=8155394607
+2025-05-06 17:09:59,232 - aiogram.event - INFO - Update id=21579203 is handled. Duration 93 ms by bot id=8155394607
+2025-05-06 17:10:02,966 - aiogram.event - INFO - Update id=21579204 is handled. Duration 172 ms by bot id=8155394607
+2025-05-06 17:10:10,797 - aiogram.event - INFO - Update id=21579205 is handled. Duration 93 ms by bot id=8155394607
+2025-05-06 17:10:12,909 - handlers.notification - INFO - User 1756307850 requested notifications creation
+2025-05-06 17:10:12,912 - handlers.notification - WARNING - Event др is in the past, skipping
+2025-05-06 17:10:12,913 - handlers.notification - WARNING - Event День рождения is in the past, skipping
+2025-05-06 17:10:12,914 - apscheduler.scheduler - INFO - Added job "send_notification" to job store "default"
+2025-05-06 17:10:12,914 - handlers.notification - INFO - Scheduled notification for event test 2 at 2025-05-06 17:12:00+03:00
+2025-05-06 17:10:12,915 - apscheduler.scheduler - INFO - Added job "send_notification" to job store "default"
+2025-05-06 17:10:12,916 - handlers.notification - INFO - Scheduled notification for event test at 2025-05-07 12:00:00+03:00
+2025-05-06 17:10:12,916 - handlers.notification - INFO - Successfully created notifications for user 1756307850
+2025-05-06 17:10:13,007 - aiogram.event - INFO - Update id=21579206 is handled. Duration 93 ms by bot id=8155394607
+2025-05-06 17:10:29,082 - aiogram.event - INFO - Update id=21579207 is handled. Duration 264 ms by bot id=8155394607
+2025-05-06 17:10:42,162 - aiogram.event - INFO - Update id=21579208 is handled. Duration 93 ms by bot id=8155394607
+2025-05-06 17:10:47,756 - aiogram.event - INFO - Update id=21579209 is handled. Duration 390 ms by bot id=8155394607
+2025-05-06 17:10:54,907 - aiogram.event - INFO - Update id=21579210 is handled. Duration 125 ms by bot id=8155394607
+2025-05-06 17:11:00,995 - aiogram.event - INFO - Update id=21579211 is handled. Duration 718 ms by bot id=8155394607
+2025-05-06 17:11:05,442 - aiogram.event - INFO - Update id=21579212 is handled. Duration 156 ms by bot id=8155394607
+2025-05-06 17:11:22,946 - aiogram.event - INFO - Update id=21579213 is handled. Duration 375 ms by bot id=8155394607
+2025-05-06 17:12:00,025 - apscheduler.scheduler - INFO - Removed job f5267ee1c06849949b7ca07de3fe063f
+2025-05-06 17:12:00,026 - apscheduler.executors.default - INFO - Running job "send_notification (trigger: date[2025-05-06 17:12:00 MSK], next run at: 2025-05-06 17:12:00 MSK)" (scheduled at 2025-05-06 17:12:00+03:00)
+2025-05-06 17:12:00,472 - handlers.notification - INFO - Notification sent to user 1756307850 about event test 2
+2025-05-06 17:12:00,473 - apscheduler.executors.default - INFO - Job "send_notification (trigger: date[2025-05-06 17:12:00 MSK], next run at: 2025-05-06 17:12:00 MSK)" executed successfully
+2025-05-06 17:12:16,765 - aiogram.event - INFO - Update id=21579214 is handled. Duration 360 ms by bot id=8155394607
+2025-05-06 17:12:27,150 - aiogram.event - INFO - Update id=21579215 is handled. Duration 109 ms by bot id=8155394607
+2025-05-06 17:12:30,525 - aiogram.event - INFO - Update id=21579216 is handled. Duration 94 ms by bot id=8155394607
+2025-05-06 17:12:40,089 - aiogram.event - INFO - Update id=21579217 is handled. Duration 110 ms by bot id=8155394607
+2025-05-06 17:12:47,403 - handlers.notification - INFO - User 1756307850 requested notifications creation
+2025-05-06 17:12:47,403 - handlers.notification - WARNING - Event др is in the past, skipping
+2025-05-06 17:12:47,403 - handlers.notification - WARNING - Event День рождения is in the past, skipping
+2025-05-06 17:12:47,404 - handlers.notification - WARNING - Event test 2 is in the past, skipping
+2025-05-06 17:12:47,404 - apscheduler.scheduler - INFO - Added job "send_notification" to job store "default"
+2025-05-06 17:12:47,405 - handlers.notification - INFO - Scheduled notification for event notif at 2025-05-06 17:13:00+03:00
+2025-05-06 17:12:47,405 - handlers.notification - INFO - Successfully created notifications for user 1756307850
+2025-05-06 17:12:47,564 - aiogram.event - INFO - Update id=21579218 is handled. Duration 156 ms by bot id=8155394607
+2025-05-06 17:13:00,005 - apscheduler.scheduler - INFO - Removed job a0dc284d2d5c476d8182ac7d6aa6cd02
+2025-05-06 17:13:00,006 - apscheduler.executors.default - INFO - Running job "send_notification (trigger: date[2025-05-06 17:13:00 MSK], next run at: 2025-05-06 17:13:00 MSK)" (scheduled at 2025-05-06 17:13:00+03:00)
+2025-05-06 17:13:00,330 - handlers.notification - INFO - Notification sent to user 1756307850 about event notif
+2025-05-06 17:13:00,330 - apscheduler.executors.default - INFO - Job "send_notification (trigger: date[2025-05-06 17:13:00 MSK], next run at: 2025-05-06 17:13:00 MSK)" executed successfully
+2025-05-06 17:14:32,803 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-06 17:14:32,803 - handlers.notification - INFO - Scheduler shut down
+2025-05-06 17:14:32,803 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-06 17:14:33,065 - aiogram.dispatcher - INFO - Polling stopped for bot @famcalendary_bot id=8155394607 - 'Family_Calendar'
+2025-05-06 17:14:33,180 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000022B8EC65E20>
+2025-05-06 17:26:00,139 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-06 17:26:00,140 - handlers.notification - INFO - Scheduler started
+2025-05-06 17:26:00,140 - aiogram.dispatcher - INFO - Start polling
+2025-05-06 17:26:00,202 - aiogram.dispatcher - INFO - Run polling for bot @famcalendary_bot id=8155394607 - 'Family_Calendar'
+2025-05-06 17:26:37,508 - aiogram.event - INFO - Update id=21579219 is handled. Duration 905 ms by bot id=8155394607
+2025-05-06 17:26:43,276 - aiogram.event - INFO - Update id=21579220 is handled. Duration 1014 ms by bot id=8155394607
+2025-05-06 17:27:03,896 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-06 17:27:03,897 - handlers.notification - INFO - Scheduler shut down
+2025-05-06 17:27:03,898 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-06 17:27:04,154 - aiogram.dispatcher - INFO - Polling stopped for bot @famcalendary_bot id=8155394607 - 'Family_Calendar'
+2025-05-06 17:32:00,654 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-06 17:32:00,655 - handlers.notification - INFO - Scheduler started
+2025-05-06 17:32:00,655 - aiogram.dispatcher - INFO - Start polling
+2025-05-06 17:32:00,725 - aiogram.dispatcher - INFO - Run polling for bot @famcalendary_bot id=8155394607 - 'Family_Calendar'
